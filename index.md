@@ -76,9 +76,11 @@ The use case and component diagram of OpenEL is shown below.
 Note: HAL4RT is the standard name when JASA proposed standardization to OMG.
 
 ![Figure 7.1 Use case of OpenEL](images/image001.png "Use case of OpenEL")
+
 Figure 7.1 Use case of OpenEL
 
 ![Figure 7.2 Architecture of OpenEL](images/image002.png "Architecture of OpenEL")
+
 Figure 7.2 Architecture of OpenEL
 
 ## 7.2 Format and Conventions
@@ -87,157 +89,51 @@ Figure 7.2 Architecture of OpenEL
 
 Classes and interfaces described in this PIM are documented using tables of the following format:
 
-<p class=MsoCaption><span
-style='font-size:10.0pt;font-family:"Times New Roman",serif'>Table x.x :
-&lt;Class / Interface Name&gt;</span></p>
+Table x.x : &lt;Class / Interface Name&gt;
 
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:14.8pt'>
-  <td width=672 colspan=6 valign=top style='width:503.7pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:14.8pt'>
-  <p class=MsoNormal><b><span>Description</span></b><span
- > : &lt;description&gt;</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:14.8pt'>
-  <td width=672 colspan=6 valign=top style='width:503.7pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:14.8pt'>
-  <p class=MsoNormal><b><span>Derived From</span></b><span
- >: &lt;parent class&gt;</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=672 colspan=6 valign=top style='width:503.7pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=MsoNormal><b><span>Attributes</span></b></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=141 colspan=2 valign=top style='width:105.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureName><span style='font-family:"Times New Roman",serif'>&lt;attribute
-  name&gt;</span></p>
-  </td>
-  <td width=141 valign=top style='width:106.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>&lt;attribute
-  type&gt;</span></p>
-  </td>
-  <td width=129 valign=top style='width:96.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>&lt;obligation&gt;</span></p>
-  </td>
-  <td width=103 valign=top style='width:77.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>&lt;occurrence&gt;</span></p>
-  </td>
-  <td width=156 valign=top style='width:117.35pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>&lt;description&gt;</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=141 colspan=2 valign=top style='width:105.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
-  <td width=141 style='width:106.0pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
-  <td width=129 style='width:96.85pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
-  <td width=103 style='width:77.55pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
-  <td width=156 style='width:117.35pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=672 colspan=6 valign=top style='width:503.7pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=MsoNormal><b><span>Operations</span></b></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=141 colspan=2 valign=top style='width:105.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureName><span
-  style='font-family:"Times New Roman",serif'>&lt;operation
-  name&gt;</span></p>
-  </td>
-  <td width=530 colspan=4 style='width:397.75pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>&lt;description&gt;</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=85 valign=top style='width:63.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureName><span
-  style='font-family:"Times New Roman",serif'>&lt;direction&gt;</span></p>
-  </td>
-  <td width=197 colspan=2 style='width:148.1pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>&lt;parameter name&gt;</span></p>
-  </td>
-  <td width=233 colspan=2 style='width:174.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>&lt;parameter type&gt;</span></p>
-  </td>
-  <td width=156 style='width:117.35pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>&lt;description&gt;</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=85 valign=top style='width:63.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
-  <td width=197 colspan=2 style='width:148.1pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
-  <td width=233 colspan=2 style='width:174.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
-  <td width=156 style='width:117.35pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>…</span></p>
-  </td>
- </tr>
- <tr height=0>
-  <td width=85 style='border:none'></td>
-  <td width=56 style='border:none'></td>
-  <td width=141 style='border:none'></td>
-  <td width=129 style='border:none'></td>
-  <td width=103 style='border:none'></td>
-  <td width=156 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="6">Description : &lt;description&gt;</td>
+	</tr>
+	<tr>
+		<td colspan="6">Derived From: &lt;parent class&gt;</td>
+	</tr>
+	<tr>
+		<td colspan="6">Attributes</td>
+	</tr>
+	<tr>
+		<td colspan="2">&lt;attribute name&gt;</td>
+		<td>&lt;attribute type&gt;</td>
+		<td>&lt;obligation&gt;</td>
+		<td>&lt;occurrence&gt;</td>
+		<td>&lt;description&gt;</td>
+	</tr>
+	<tr>
+		<td colspan="2">…</td>
+		<td>…</td>
+		<td>…</td>
+		<td>…</td>
+		<td>…</td>
+	</tr>
+	<tr>
+		<td colspan="6">Operations</td>
+	</tr>
+	<tr>
+		<td colspan="2">&lt;operation name&gt;</td>
+		<td colspan="4">&lt;description&gt;</td>
+	</tr>
+	<tr>
+		<td>&lt;direction&gt;</td>
+		<td colspan="2">&lt;parameter name&gt;</td>
+		<td colspan="2">&lt;parameter type&gt;</td>
+		<td>&lt;description&gt;</td>
+	</tr>
+	<tr>
+		<td>…</td>
+		<td colspan="2">…</td>
+		<td colspan="2">…</td>
+		<td>…</td>
+	</tr>
 </table>
 
 Note that derived attributes or operations are not described explicitly.
@@ -299,6 +195,7 @@ Table 7.1: ReturnCode enumeration
 The common part defines a mechanism for managing devices. All the components need to implement the contents defined in the common part excluding Actuator and Sensor element. The class diagram of the common part is shown below.
 
 ![Figure 7.3 Common part](images/image003.png "Common part")
+
 Figure 7.3 Common part
 
 ### 7.4.1.1 HALComponent
@@ -417,6 +314,7 @@ It is possible to define a HALComponent with both Sensor and Actuator characteri
 The State Machine of the HAL Component is shown below. Note that state transitions specific to each device are defined within the "Active" state.
 
 ![Figure 7.4 State Machine of HALComponent](images/image004.png "State Machine of HALComponent")
+
 Figure 7.4 State Machine of HALComponent
 
 Details of each state are shown below.
@@ -748,12 +646,15 @@ The sample sequence diagram for synchronous control of multiple actuators using 
 defined above is shown below.
 
 ![Figure 7.5 The sample sequence diagram for synchronous control of multiple actuators.](images/image005.png "The sample sequence diagram for synchronous control of multiple actuators.")
+
 Figure 7.5 The sample sequence diagram for synchronous control of multiple actuators.
 
 ![Figure 7.6 Execute the initialization process.](images/image006.png "Execute the initialization process.")
+
 Figure 7.6 Execute the initialization process.
 
 ![Figure 7.7 Execute synchronous control.](images/image007.png "Execute synchronous control.")
+
 Figure 7.7 Execute synchronous control.
 
 ### 7.4.1.8 Sensor
@@ -839,6 +740,7 @@ Like actuator devices, observers can be added and removed for sensor devices as 
 The sample sequence diagram for synchronizing time information among multiple sensors using the API defined above is shown below.
 
 ![Figure 7.8 Execute synchronous control of multiple sensors.](images/image008.png "Execute synchronous control of multiple sensors.")
+
 Figure 7.8 Execute synchronous control of multiple sensors.
 
 ## 7.5 Platform Specific Model(PSM)
