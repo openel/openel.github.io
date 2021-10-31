@@ -307,395 +307,110 @@ HALComponent is an element that holds information that all components should hav
 
 It is possible to define a HALComponent with both Sensor and Actuator characteristics, such as cameras with gimbal mechanisms.
 
-<div align=center>
-
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=672
- style='width:503.85pt;border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=9
-  colspan=2><p class='MsoNormal'>&nbsp;</td>
-  <td width=663 colspan=12 style='width:496.95pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Derived From</span></b><span
- >: None</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=12 style='width:496.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Attributes</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=4 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>halId</span></p>
-  </td>
-  <td width=103 colspan=3 style='width:77.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALId</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=53 colspan=2 style='width:39.75pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=361 colspan=2 style='width:270.9pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>ID
-  for identifying the component.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=4 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>property</span></p>
-  </td>
-  <td width=103 colspan=3 style='width:77.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Property</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=53 colspan=2 style='width:39.75pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=361 colspan=2 style='width:270.9pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Details
-  of the implementation content of each component.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=110 colspan=4 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>observerList</span></p>
-  </td>
-  <td width=103 colspan=3 style='width:77.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALObserver</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>O</span></p>
-  </td>
-  <td width=53 colspan=2 style='width:39.75pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>N</span></p>
-  </td>
-  <td width=361 colspan=2 style='width:270.9pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>A
-  list of observers to notify upper-level applications of component-side
-  information.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=4 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>time</span></p>
-  </td>
-  <td width=103 colspan=3 style='width:77.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>O</span></p>
-  </td>
-  <td width=53 colspan=2 style='width:39.75pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=361 colspan=2 style='width:270.9pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Component
-  time information.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Time
-  information of timer (OS timer, timer possessed by device, etc.) referenced
-  by HALComponent.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>It
-  is used to acquire data with time from a sensor without time information.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>The
-  unit of time is implementation dependent.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=12 style='width:496.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Operations</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>Init</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Perform
-  initialization processing of HALComponent.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:19.85pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:19.85pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>ReInit</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:19.85pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Reset
-  HALComponent. Reset error condition and return to normal state.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>Finalize</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Quit
-  HAL Component.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>AddObserver</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Register
-  an observer for notifying the event from the HALComponent to the upper
-  application.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 colspan=2 style='width:34.3pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 colspan=2 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>target</span></p>
-  </td>
-  <td width=132 colspan=4 style='width:99.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALObserver</span></p>
-  </td>
-  <td width=38 colspan=2 style='width:28.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=360 colspan=2 style='width:270.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Observer
-  to be registered.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>RemoveObserver</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Unregister
-  observer set in HALComponent.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 colspan=2 style='width:34.3pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 colspan=2 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>target</span></p>
-  </td>
-  <td width=132 colspan=4 style='width:99.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALObserver</span></p>
-  </td>
-  <td width=38 colspan=2 style='width:28.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=360 colspan=2 style='width:270.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Observer
-  to be unregistered.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>GetProfile</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Acquire
-  property information of HALComponent</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 colspan=2 style='width:34.3pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>out</span></p>
-  </td>
-  <td width=87 colspan=2 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>profile</span></p>
-  </td>
-  <td width=132 colspan=4 style='width:99.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Profile</span></p>
-  </td>
-  <td width=38 colspan=2 style='width:28.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=360 colspan=2 style='width:270.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Profile
-  information of HALComponent.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>GetTime</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Get
-  the time information of HALComponent. For components that do not have the
-  time attribute, HAL_Error is returned.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 colspan=2 style='width:34.3pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>out</span></p>
-  </td>
-  <td width=87 colspan=2 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>time</span></p>
-  </td>
-  <td width=132 colspan=4 style='width:99.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=38 colspan=2 style='width:28.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=360 colspan=2 style='width:270.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Time
-  information of HALComponent</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr height=0>
-  <td width=1 style='border:none'></td>
-  <td width=9 style='border:none'></td>
-  <td width=37 style='border:none'></td>
-  <td width=64 style='border:none'></td>
-  <td width=23 style='border:none'></td>
-  <td width=19 style='border:none'></td>
-  <td width=61 style='border:none'></td>
-  <td width=35 style='border:none'></td>
-  <td width=17 style='border:none'></td>
-  <td width=36 style='border:none'></td>
-  <td width=2 style='border:none'></td>
-  <td width=359 style='border:none'></td>
-  <td width=1 style='border:none'></td>
-  <td width=9 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="12">Derived From: None</td>
+	</tr>
+	<tr>
+		<td colspan="12">Attributes</td>
+	</tr>
+	<tr>
+		<td colspan="4">halId</td>
+		<td colspan="3">HALId</td>
+		<td>M</td>
+		<td colspan="2">1</td>
+		<td colspan="2">ID for identifying the component.</td>
+	</tr>
+	<tr>
+		<td colspan="4">property</td>
+		<td colspan="3">Property</td>
+		<td>M</td>
+		<td colspan="2">1</td>
+		<td colspan="2">Details of the implementation content of each component.</td>
+	</tr>
+	<tr>
+		<td colspan="4">observerList</td>
+		<td colspan="3">HALObserver</td>
+		<td>O</td>
+		<td colspan="2">N</td>
+		<td colspan="2">A list of observers to notify upper-level applications of component-side information.</td>
+	</tr>
+	<tr>
+		<td colspan="4" rowspan="4">time</td>
+		<td colspan="3" rowspan="4">Integer</td>
+		<td rowspan="4">O</td>
+		<td colspan="2" rowspan="4">1</td>
+		<td colspan="2">Component time information.</td>
+	</tr>
+	<tr>
+		<td colspan="2">Time information of timer (OS timer, timer possessed by device, etc.) referenced by HALComponent.</td>
+	</tr>
+	<tr>
+		<td colspan="2">It is used to acquire data with time from a sensor without time information.</td>
+	</tr>
+	<tr>
+		<td colspan="2">The unit of time is implementation dependent.</td>
+	</tr>
+	<tr>
+		<td colspan="12">Operations</td>
+	</tr>
+	<tr>
+		<td colspan="6">Init</td>
+		<td colspan="6">Perform initialization processing of HALComponent.</td>
+	</tr>
+	<tr>
+		<td colspan="6">ReInit</td>
+		<td colspan="6">Reset HALComponent. Reset error condition and return to normal state.</td>
+	</tr>
+	<tr>
+		<td colspan="6">Finalize</td>
+		<td colspan="6">Quit HAL Component.</td>
+	</tr>
+	<tr>
+		<td colspan="6">AddObserver</td>
+		<td colspan="6">Register an observer for notifying the event from the HALComponent to the upper application.</td>
+	</tr>
+	<tr>
+		<td colspan="2">in</td>
+		<td colspan="2">target</td>
+		<td colspan="4">HALObserver</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Observer to be registered.</td>
+	</tr>
+	<tr>
+		<td colspan="6">RemoveObserver</td>
+		<td colspan="6">Unregister observer set in HALComponent.</td>
+	</tr>
+	<tr>
+		<td colspan="2">in</td>
+		<td colspan="2">target</td>
+		<td colspan="4">HALObserver</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Observer to be unregistered.</td>
+	</tr>
+	<tr>
+		<td colspan="6">GetProfile</td>
+		<td colspan="6">Acquire property information of HALComponent</td>
+	</tr>
+	<tr>
+		<td colspan="2">out</td>
+		<td colspan="2">profile</td>
+		<td colspan="4">Profile</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Profile information of HALComponent.</td>
+	</tr>
+	<tr>
+		<td colspan="6">GetTime</td>
+		<td colspan="6">Get the time information of HALComponent. For components that do not have the time attribute, HAL_Error is returned.</td>
+	</tr>
+	<tr>
+		<td colspan="2">out</td>
+		<td colspan="2">time</td>
+		<td colspan="4">Integer</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Time information of HALComponent</td>
+	</tr>
 </table>
-
-</div>
 
 ### State transition
 
@@ -716,287 +431,93 @@ Details of each state are shown below.
 
 ### 7.4.1.2 HALId
 
-<p><span>HALId is an element representing the Id identifying
-a HALComponent.</span></p>
+HALId is an element representing the Id identifying a HALComponent.
 
-<div align=center>
-
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=672
- style='width:503.85pt;border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=9><p class='MsoNormal'>&nbsp;</td>
-  <td width=663 colspan=6 style='width:496.95pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Derived From</span></b><span
- >: None</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=6 style='width:496.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Attributes</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=2 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>deviceKindId</span></p>
-  </td>
-  <td width=103 style='width:77.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=45 style='width:33.6pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=369 style='width:277.05pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Identifier
-  for identifying the type of device.<br>
-  OMG performs management.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=2 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>vendorId</span></p>
-  </td>
-  <td width=103 style='width:77.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=45 style='width:33.6pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=369 style='width:277.05pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Identifier
-  for identifying the device vendor.<br>
-  OMG performs management.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=110 colspan=2 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>productId</span></p>
-  </td>
-  <td width=103 style='width:77.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=45 style='width:33.6pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=369 style='width:277.05pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Identifier
-  for identifying the product.<br>
-  The device vendor gives a unique numbering.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=2 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>instanceId</span></p>
-  </td>
-  <td width=103 style='width:77.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=45 style='width:33.6pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=369 style='width:277.05pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>An
-  identifier for identifying each device. When multiple products of the same
-  type are used in the target system, they are used to identify them.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>The
-  application creator sets in advance by some means.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr height=0>
-  <td width=9 style='border:none'></td>
-  <td width=101 style='border:none'></td>
-  <td width=103 style='border:none'></td>
-  <td width=35 style='border:none'></td>
-  <td width=45 style='border:none'></td>
-  <td width=369 style='border:none'></td>
-  <td width=9 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="6">Derived From: None</td>
+	</tr>
+	<tr>
+		<td colspan="6">Attributes</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">deviceKindId</td>
+		<td rowspan="2">Integer</td>
+		<td rowspan="2">M</td>
+		<td rowspan="2">1</td>
+		<td>Identifier for identifying the type of device.</td>
+	</tr>
+	<tr>
+		<td>OMG performs management.</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">vendorId</td>
+		<td rowspan="2">Integer</td>
+		<td rowspan="2">M</td>
+		<td rowspan="2">1</td>
+		<td>Identifier for identifying the device vendor.</td>
+	</tr>
+	<tr>
+		<td>OMG performs management.</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">productId</td>
+		<td rowspan="2">Integer</td>
+		<td rowspan="2">M</td>
+		<td rowspan="2">1</td>
+		<td>Identifier for identifying the product.</td>
+	</tr>
+	<tr>
+		<td>The device vendor gives a unique numbering.</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">instanceId</td>
+		<td rowspan="2">Integer</td>
+		<td rowspan="2">M</td>
+		<td rowspan="2">1</td>
+		<td>An identifier for identifying each device. When multiple products of the same type are used in the target system, they are used to identify them.</td>
+	</tr>
+	<tr>
+		<td>The application creator sets in advance by some means.</td>
+	</tr>
 </table>
-
-</div>
 
 ### 7.4.1.3 Property
 
 Property is an element for holding details of the function of HALComponent.
 
-<div align=center>
-
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=672
- style='width:503.85pt;border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=9><p class='MsoNormal'>&nbsp;</td>
-  <td width=663 colspan=6 style='width:496.95pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Derived From</span></b><span
- >: None</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=6 style='width:496.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Attributes</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=2 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>id</span></p>
-  </td>
-  <td width=103 style='width:77.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALId</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=45 style='width:33.6pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=369 style='width:277.05pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>An
-  identifier representing the corresponding HALComponent.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=2 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>deviceName</span></p>
-  </td>
-  <td width=103 style='width:77.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>String</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=45 style='width:33.6pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=369 style='width:277.05pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Name
-  of HALComponent.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid'>
-  <td width=110 colspan=2 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>functionList</span></p>
-  </td>
-  <td width=103 style='width:77.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>String</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=45 style='width:33.6pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=369 style='width:277.05pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>List
-  of function names implemented by HALComponent.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>When
-  a device vendor adds and extends its own method, it describes which method is
-  implemented by the target HALComponent. The whole image of the expanded
-  original method is prepared by the device vendor with a spec sheet etc. The
-  application creator shall know in advance what kind of extension method is
-  defined.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr height=0>
-  <td width=9 style='border:none'></td>
-  <td width=101 style='border:none'></td>
-  <td width=103 style='border:none'></td>
-  <td width=35 style='border:none'></td>
-  <td width=45 style='border:none'></td>
-  <td width=369 style='border:none'></td>
-  <td width=9 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="6">Derived From: None</td>
+	</tr>
+	<tr>
+		<td colspan="6">Attributes</td>
+	</tr>
+	<tr>
+		<td colspan="2">id</td>
+		<td>HALId</td>
+		<td>M</td>
+		<td>1</td>
+		<td>An identifier representing the corresponding HALComponent.</td>
+	</tr>
+	<tr>
+		<td colspan="2">deviceName</td>
+		<td>String</td>
+		<td>M</td>
+		<td>1</td>
+		<td>Name of HALComponent.</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">functionList</td>
+		<td rowspan="2">String</td>
+		<td rowspan="2">M</td>
+		<td rowspan="2">1</td>
+		<td>List of function names implemented by HALComponent.</td>
+	</tr>
+	<tr>
+		<td>When a device vendor adds and extends its own method, it describes which method is implemented by the target HALComponent. The whole image of the expanded original method is prepared by the device vendor with a spec sheet etc. The application creator shall know in advance what kind of extension method is defined.</td>
+	</tr>
 </table>
-
-</div>
 
 ### 7.4.1.4 EventTimer
 
@@ -1006,747 +527,222 @@ There are many kind of event timers (POSIX, proprietary RTOS, ... etc). The Even
 
 The EventTimer class is independent of HALComponent.
 
-<div align=center>
-
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=672
- style='width:503.85pt;border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=9
-  colspan=2><p class='MsoNormal'>&nbsp;</td>
-  <td width=663 colspan=12 style='width:496.95pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Derived From</span></b><span
- >: None</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=12 style='width:496.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Attributes</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=110 colspan=4 style='width:82.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>observerList</span></p>
-  </td>
-  <td width=103 colspan=3 style='width:77.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>TimerObserver</span></p>
-  </td>
-  <td width=35 style='width:26.1pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>O</span></p>
-  </td>
-  <td width=45 colspan=2 style='width:33.6pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>N</span></p>
-  </td>
-  <td width=369 colspan=2 style='width:277.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>A
-  list of observers to notify upper applications that the timer has timed out</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=12 style='width:496.95pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Operations</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>StartTimer</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Start
-  the event timer.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:19.85pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:19.85pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>StopTimer</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:19.85pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Stop
-  the event timer.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>SetEventPeriod</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Set
-  the event occurrence cycle.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 colspan=2 style='width:34.3pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 colspan=2 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>EventPeriod</span></p>
-  </td>
-  <td width=132 colspan=4 style='width:99.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=38 colspan=2 style='width:28.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=360 colspan=2 style='width:270.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Event
-  occurrence cycle</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>AddObserver</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Register
-  an observer for notifying the timeout event from the EventTimer to the upper
-  application.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 colspan=2 style='width:34.3pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 colspan=2 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>target</span></p>
-  </td>
-  <td width=132 colspan=4 style='width:99.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Timer</span><span
-  style='font-family:"Times New Roman",serif'>Observer</span></p>
-  </td>
-  <td width=38 colspan=2 style='width:28.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=360 colspan=2 style='width:270.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Observer
-  to be registered</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=6 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>RemoveObserver</span></p>
-  </td>
-  <td width=510 colspan=6 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Unregister
-  the observer set in EventTimer.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 colspan=2 style='width:34.3pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 colspan=2 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>target</span></p>
-  </td>
-  <td width=132 colspan=4 style='width:99.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Timer</span><span
-  style='font-family:"Times New Roman",serif'>Observer</span></p>
-  </td>
-  <td width=38 colspan=2 style='width:28.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=360 colspan=2 style='width:270.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Observer
-  to be unregistered</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr height=0>
-  <td width=1 style='border:none'></td>
-  <td width=9 style='border:none'></td>
-  <td width=37 style='border:none'></td>
-  <td width=64 style='border:none'></td>
-  <td width=23 style='border:none'></td>
-  <td width=19 style='border:none'></td>
-  <td width=61 style='border:none'></td>
-  <td width=35 style='border:none'></td>
-  <td width=17 style='border:none'></td>
-  <td width=28 style='border:none'></td>
-  <td width=10 style='border:none'></td>
-  <td width=359 style='border:none'></td>
-  <td width=1 style='border:none'></td>
-  <td width=9 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="12">Derived From: None</td>
+	</tr>
+	<tr>
+		<td colspan="12">Attributes</td>
+	</tr>
+	<tr>
+		<td colspan="4">observerList</td>
+		<td colspan="3">TimerObserver</td>
+		<td>O</td>
+		<td colspan="2">N</td>
+		<td colspan="2">A list of observers to notify upper applications that the timer has timed out</td>
+	</tr>
+	<tr>
+		<td colspan="12">Operations</td>
+	</tr>
+	<tr>
+		<td colspan="6">StartTimer</td>
+		<td colspan="6">Start the event timer.</td>
+	</tr>
+	<tr>
+		<td colspan="6">StopTimer</td>
+		<td colspan="6">Stop the event timer.</td>
+	</tr>
+	<tr>
+		<td colspan="6">SetEventPeriod</td>
+		<td colspan="6">Set the event occurrence cycle.</td>
+	</tr>
+	<tr>
+		<td colspan="2">in</td>
+		<td colspan="2">EventPeriod</td>
+		<td colspan="4">Integer</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Event occurrence cycle</td>
+	</tr>
+	<tr>
+		<td colspan="6">AddObserver</td>
+		<td colspan="6">Register an observer for notifying the timeout event from the EventTimer to the upper application.</td>
+	</tr>
+	<tr>
+		<td colspan="2">in</td>
+		<td colspan="2">target</td>
+		<td colspan="4">TimerObserver</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Observer to be registered</td>
+	</tr>
+	<tr>
+		<td colspan="6">RemoveObserver</td>
+		<td colspan="6">Unregister the observer set in EventTimer.</td>
+	</tr>
+	<tr>
+		<td colspan="2">in</td>
+		<td colspan="2">target</td>
+		<td colspan="4">TimerObserver</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Observer to be unregistered</td>
+	</tr>
 </table>
-
-</div>
 
 ### 7.4.1.5 HALObserver
 
 ALObserver is an interface for communicating the event occurrences in HALComponent to the application. For applications that use HALComponent, it is necessary to implement elements that realize this interface.
 
-<div align=center>
-
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=663
- style='width:497.45pt;border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=7 style='width:496.95pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Operations</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=4 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>notify_event</span></p>
-  </td>
-  <td width=510 colspan=3 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Notify
-  of an event occurred in HALComponent.</span></p>
-  </td>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 style='width:34.3pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>source</span></p>
-  </td>
-  <td width=82 colspan=2 style='width:61.85pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALComponent</span></p>
-  </td>
-  <td width=38 style='width:10.0mm;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=410 colspan=2 style='width:307.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALComponent
-  object that occurred the event.</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 style='width:34.3pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>event_id</span></p>
-  </td>
-  <td width=82 colspan=2 style='width:61.85pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=38 style='width:10.0mm;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=410 colspan=2 style='width:307.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>An
-  identifier for distinguishing the type of event that has occurred.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>It
-  is not an identifier for distinguishing individual events that have occurred.</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=4 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>notify_error</span></p>
-  </td>
-  <td width=510 colspan=3 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Notify
-  of errors occurred in HALComponent.</span></p>
-  </td>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 style='width:34.3pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>source</span></p>
-  </td>
-  <td width=82 colspan=2 style='width:61.85pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALComponent</span></p>
-  </td>
-  <td width=38 style='width:10.0mm;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=410 colspan=2 style='width:307.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>HALComponent
-  object that occurred the error.</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 style='width:34.3pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>error_id</span></p>
-  </td>
-  <td width=82 colspan=2 style='width:61.85pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=38 style='width:10.0mm;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=410 colspan=2 style='width:307.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>An
-  identifier to distinguish the type of error that occurred.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>It
-  is not an identifier for distinguishing individual errors that have occurred.</span></p>
-  </td>
- </tr>
- <tr height=0>
-  <td width=0 style='border:none'></td>
-  <td width=44 style='border:none'></td>
-  <td width=85 style='border:none'></td>
-  <td width=20 style='border:none'></td>
-  <td width=84 style='border:none'></td>
-  <td width=38 style='border:none'></td>
-  <td width=390 style='border:none'></td>
-  <td width=1 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="7">Operations</td>
+	</tr>
+	<tr>
+		<td colspan="4">notify_event</td>
+		<td colspan="3">Notify of an event occurred in HALComponent.</td>
+	</tr>
+	<tr>
+		<td>in</td>
+		<td>source</td>
+		<td colspan="2">HALComponent</td>
+		<td>M</td>
+		<td colspan="2">HALComponent object that occurred the event.</td>
+	</tr>
+	<tr>
+		<td rowspan="2">in</td>
+		<td rowspan="2">event_id</td>
+		<td colspan="2" rowspan="2">Integer</td>
+		<td rowspan="2">M</td>
+		<td colspan="2">An identifier for distinguishing the type of event that has occurred.</td>
+	</tr>
+	<tr>
+		<td colspan="2">It is not an identifier for distinguishing individual events that have occurred.</td>
+	</tr>
+	<tr>
+		<td colspan="4">notify_error</td>
+		<td colspan="3">Notify of errors occurred in HALComponent.</td>
+	</tr>
+	<tr>
+		<td>in</td>
+		<td>source</td>
+		<td colspan="2">HALComponent</td>
+		<td>M</td>
+		<td colspan="2">HALComponent object that occurred the error.</td>
+	</tr>
+	<tr>
+		<td rowspan="2">in</td>
+		<td rowspan="2">error_id</td>
+		<td colspan="2" rowspan="2">Integer</td>
+		<td rowspan="2">M</td>
+		<td colspan="2">An identifier to distinguish the type of error that occurred.</td>
+	</tr>
+	<tr>
+		<td colspan="2">It is not an identifier for distinguishing individual errors that have occurred.</td>
+	</tr>
 </table>
-
-</div>
 
 ### 7.4.1.6 TimerObserver
 
 TimerObserver is an interface for communicating the timeout event generated by the EventTimer to the application. Applications that use timer information, such as synchronous control of multiple actuators using EventTimer, need to implement elements that realize this interface.
 
-<div align=center>
-
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=663
- style='width:497.45pt;border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=7 style='width:496.95pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Operations</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=152 colspan=4 style='width:114.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>notify_timer</span></p>
-  </td>
-  <td width=510 colspan=3 style='width:382.85pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Notify
-  of timeout event generated by EventTimer.</span></p>
-  </td>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=46 style='width:34.3pt;border:solid windowtext 1.0pt;border-top:
-  none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=87 style='width:65.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>eventTimer</span></p>
-  </td>
-  <td width=82 colspan=2 style='width:61.85pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>EventTimer</span></p>
-  </td>
-  <td width=38 style='width:10.0mm;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt;
-  height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=410 colspan=2 style='width:307.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>EventTimer
-  object that timed out.</span></p>
-  </td>
- </tr>
- <tr height=0>
-  <td width=1 style='border:none'></td>
-  <td width=46 style='border:none'></td>
-  <td width=87 style='border:none'></td>
-  <td width=19 style='border:none'></td>
-  <td width=64 style='border:none'></td>
-  <td width=38 style='border:none'></td>
-  <td width=409 style='border:none'></td>
-  <td width=1 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="7">Operations</td>
+	</tr>
+	<tr>
+		<td colspan="4">notify_timer</td>
+		<td colspan="3">Notify of timeout event generated by EventTimer.</td>
+	</tr>
+	<tr>
+		<td>in</td>
+		<td>eventTimer</td>
+		<td colspan="2">EventTimer</td>
+		<td>M</td>
+		<td colspan="2">EventTimer object that timed out.</td>
+	</tr>
 </table>
-
-</div>
 
 ### 7.4.1.7 Actuator
 
 The Actuator element defines the API that an Actuator device with one degree of freedom
 should provide.
 
-<div align=center>
-
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=675
- style='width:506.0pt;border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=10
-  colspan=2><p class='MsoNormal'>&nbsp;</td>
-  <td width=665 colspan=12 style='width:498.75pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Derived From</span></b><span
- >: HALComponent</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=666 colspan=12 style='width:499.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Attributes</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=121 colspan=4 style='width:90.8pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>value</span></p>
-  </td>
-  <td width=69 colspan=3 style='width:51.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Real</span></p>
-  </td>
-  <td width=37 colspan=2 style='width:28.0pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=54 colspan=2 style='width:40.85pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>NOrd</span></p>
-  </td>
-  <td width=384 style='width:288.3pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><span>Actual value of the target actuator. If the
-  actual angle / position / velocity / torque cannot be measured, estimated
-  value or command value.</span></p>
-  <p class=MsoNormal><span>Unit: [rad] or [m] / [rad/s] or [m/s] /
-  [Nm] or [N]</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=666 colspan=12 style='width:499.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Operations</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=124 colspan=5 style='width:92.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>GetValue</span></p>
-  </td>
-  <td width=542 colspan=7 style='width:406.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><span>Obtain the actual angle / position /
-  velocity / torque of the target actuator. If the actual angle / position /
-  velocity / torque cannot be measured, return the estimated value or command
-  value.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=56 colspan=2 style='width:42.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>out</span></p>
-  </td>
-  <td width=97 colspan=3 style='width:72.95pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>value</span></p>
-  </td>
-  <td width=60 colspan=2 style='width:45.0pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Real</span></p>
-  </td>
-  <td width=54 colspan=2 style='width:40.65pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=398 colspan=3 style='width:298.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><span>Actual actuator angle / position /
-  velocity / torque.</span></p>
-  <p class=MsoNormal><span>Unit: [rad] or [m] / [rad/s] or [m/s] /
-  [Nm] or [N]</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=56 colspan=2 style='width:42.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=97 colspan=3 style='width:72.95pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>command</span></p>
-  </td>
-  <td width=60 colspan=2 style='width:45.0pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Enum</span></p>
-  </td>
-  <td width=54 colspan=2 style='width:40.65pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=398 colspan=3 style='width:298.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><span>Actuator Controller mode.</span></p>
-  <p class=MsoNormal><span>Command : POSITION / VELOCITY /</span><span
- > TORQUE</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=124 colspan=5 style='width:92.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>SetValue</span></p>
-  </td>
-  <td width=542 colspan=7 style='width:406.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><span>Move the actuator to the target angle /
-  position / velocity / torque.</span></p>
-  <p class=MsoNormal><span>This method is asynchronous and does not
-  wait until the actuator reaches the target angle / position / velocity /
-  torque.</span></p>
-  <p class=MsoNormal><span>If this method is called again before the
-  actuator reaches the target angle / position / velocity / torque, the target
-  angle / position / velocity / torque is updated.</span></p>
-  <p class=MsoNormal><span>The fact that the actuator has reached
-  the target angle / position / velocity / torque is notified to the
-  application side using HALObserver. However, this notification is issued only
-  when it reaches the final target angle / position / velocity / torque.
-  Therefore, when this method is called a plurality of times and the target
-  angle / position / velocity / torque is updated, only the notification
-  corresponding to the method setting the final target angle / position /
-  velocity / torque is performed.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=56 colspan=2 style='width:42.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=97 colspan=3 style='width:72.95pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>value</span></p>
-  </td>
-  <td width=60 colspan=2 style='width:45.0pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Real</span></p>
-  </td>
-  <td width=54 colspan=2 style='width:40.65pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=398 colspan=3 style='width:298.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><span>Target angle / position / velocity /
-  torque command.</span></p>
-  <p class=MsoNormal><span>Unit: [rad] or [m] / [rad/s] or [m/s] /
-  [Nm] or [N]</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=56 colspan=2 style='width:42.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>in</span></p>
-  </td>
-  <td width=97 colspan=3 style='width:72.95pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>command</span></p>
-  </td>
-  <td width=60 colspan=2 style='width:45.0pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=54 colspan=2 style='width:40.65pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>1</span></p>
-  </td>
-  <td width=398 colspan=3 style='width:298.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><span>Actuator Controller mode.</span></p>
-  <p class=MsoNormal><span>Command : POSITION_CONTROL=1 / VELOCITY_CONTROL=2
-  /</span><span> TORQUE_CONTROL=3</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr height=0>
-  <td width=1 style='border:none'></td>
-  <td width=8 style='border:none'></td>
-  <td width=48 style='border:none'></td>
-  <td width=64 style='border:none'></td>
-  <td width=3 style='border:none'></td>
-  <td width=31 style='border:none'></td>
-  <td width=35 style='border:none'></td>
-  <td width=25 style='border:none'></td>
-  <td width=12 style='border:none'></td>
-  <td width=42 style='border:none'></td>
-  <td width=13 style='border:none'></td>
-  <td width=384 style='border:none'></td>
-  <td width=1 style='border:none'></td>
-  <td width=8 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="12">Derived From: HALComponent</td>
+	</tr>
+	<tr>
+		<td colspan="12">Attributes</td>
+	</tr>
+	<tr>
+		<td colspan="4" rowspan="2">value</td>
+		<td colspan="3" rowspan="2">Real</td>
+		<td colspan="2" rowspan="2">M</td>
+		<td colspan="2" rowspan="2">NOrd</td>
+		<td>Actual value of the target actuator. If the actual angle / position / velocity / torque cannot be measured, estimated value or command value.</td>
+	</tr>
+	<tr>
+		<td>Unit: [rad] or [m] / [rad/s] or [m/s] / [Nm] or [N]</td>
+	</tr>
+	<tr>
+		<td colspan="12">Operations</td>
+	</tr>
+	<tr>
+		<td colspan="5">GetValue</td>
+		<td colspan="7">Obtain the actual angle / position / velocity / torque of the target actuator. If the actual angle / position / velocity / torque cannot be measured, return the estimated value or command value.</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">out</td>
+		<td colspan="3" rowspan="2">value</td>
+		<td colspan="2" rowspan="2">Real</td>
+		<td colspan="2" rowspan="2">1</td>
+		<td colspan="3">Actual actuator angle / position / velocity / torque.</td>
+	</tr>
+	<tr>
+		<td colspan="3">Unit: [rad] or [m] / [rad/s] or [m/s] / [Nm] or [N]</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">in</td>
+		<td colspan="3" rowspan="2">command</td>
+		<td colspan="2" rowspan="2">Enum</td>
+		<td colspan="2" rowspan="2">1</td>
+		<td colspan="3">Actuator Controller mode.</td>
+	</tr>
+	<tr>
+		<td colspan="3">Command : POSITION / VELOCITY / TORQUE</td>
+	</tr>
+	<tr>
+		<td colspan="5" rowspan="4">SetValue</td>
+		<td colspan="7">Move the actuator to the target angle / position / velocity / torque.</td>
+	</tr>
+	<tr>
+		<td colspan="7">This method is asynchronous and does not wait until the actuator reaches the target angle / position / velocity / torque.</td>
+	</tr>
+	<tr>
+		<td colspan="7">If this method is called again before the actuator reaches the target angle / position / velocity / torque, the target angle / position / velocity / torque is updated.</td>
+	</tr>
+	<tr>
+		<td colspan="7">The fact that the actuator has reached the target angle / position / velocity / torque is notified to the application side using HALObserver. However, this notification is issued only when it reaches the final target angle / position / velocity / torque. Therefore, when this method is called a plurality of times and the target angle / position / velocity / torque is updated, only the notification corresponding to the method setting the final target angle / position / velocity / torque is performed.</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">in</td>
+		<td colspan="3" rowspan="2">value</td>
+		<td colspan="2" rowspan="2">Real</td>
+		<td colspan="2" rowspan="2">1</td>
+		<td colspan="3">Target angle / position / velocity / torque command.</td>
+	</tr>
+	<tr>
+		<td colspan="3">Unit: [rad] or [m] / [rad/s] or [m/s] / [Nm] or [N]</td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">in</td>
+		<td colspan="3" rowspan="2">command</td>
+		<td colspan="2" rowspan="2">Integer</td>
+		<td colspan="2" rowspan="2">1</td>
+		<td colspan="3">Actuator Controller mode.</td>
+	</tr>
+	<tr>
+		<td colspan="3">Command : POSITION_CONTROL=1 / VELOCITY_CONTROL=2 / TORQUE_CONTROL=3</td>
+	</tr>
 </table>
-
-</div>
 
 The sample sequence diagram for synchronous control of multiple actuators using the API
 defined above is shown below.
@@ -1766,262 +762,79 @@ The Sensor element defines the API that a Sensor device should provide.
 
 Like actuator devices, observers can be added and removed for sensor devices as well.
 
-<div align=center>
-
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=672
- style='width:503.85pt;border-collapse:collapse;border:none'>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=9
-  colspan=2><p class='MsoNormal'>&nbsp;</td>
-  <td width=663 colspan=12 style='width:496.95pt;border:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Derived From</span></b><span
- >: HALComponent</span></p>
-  </td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=12 style='width:497.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Attributes</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=109 colspan=4 style='width:81.9pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName style='text-align:justify;text-justify:inter-ideograph'><span
-  style='font-family:"Times New Roman",serif'>value</span></p>
-  </td>
-  <td width=102 colspan=3 style='width:76.4pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Real</span></p>
-  </td>
-  <td width=35 style='width:25.95pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=56 colspan=2 style='width:42.2pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>NOrd</span></p>
-  </td>
-  <td width=361 colspan=2 style='width:270.65pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Measurement
-  value of sensor device</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=663 colspan=12 style='width:497.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=MsoNormal><b><span>Operations</span></b></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=150 colspan=6 style='width:112.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>GetValue</span></p>
-  </td>
-  <td width=512 colspan=6 style='width:384.25pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Acquire sensor measurement value.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Used to acquire the sensor measurement value from the
-  application side.</span></p>
-  <p class=MsoNormal style='punctuation-wrap:hanging;text-autospace:ideograph-numeric ideograph-other'><span
- >The sensor measurement value is output in the
-  International System of Units.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=45 colspan=2 style='width:34.0pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>out</span></p>
-  </td>
-  <td width=86 colspan=2 style='width:64.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>value</span></p>
-  </td>
-  <td width=131 colspan=4 style='width:98.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Real</span></p>
-  </td>
-  <td width=49 colspan=2 style='width:36.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>NOrd</span></p>
-  </td>
-  <td width=352 colspan=2 style='width:263.75pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Sensor measurement value.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;border-bottom:solid windowtext 1.0pt' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=45 colspan=2 style='width:34.0pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>out</span></p>
-  </td>
-  <td width=86 colspan=2 style='width:64.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>num</span></p>
-  </td>
-  <td width=131 colspan=4 style='width:98.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=49 colspan=2 style='width:36.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=352 colspan=2 style='width:263.75pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Number of value.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td width=150 colspan=6 style='width:112.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureName align=left style='text-align:left'><span
-  style='font-family:"Times New Roman",serif'>GetTimedValue</span></p>
-  </td>
-  <td width=512 colspan=6 style='width:384.25pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Acquire sensor measurement value and measurement time.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Used to acquire the sensor measurement value from the
-  application side. Time returns the time value defined by HALComponent.</span></p>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>The sensor measurement value is in the International System of
-  Units.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=9 colspan=2><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=45 colspan=2 style='width:34.0pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>out</span></p>
-  </td>
-  <td width=86 colspan=2 style='width:64.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>value</span></p>
-  </td>
-  <td width=131 colspan=4 style='width:98.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Real</span></p>
-  </td>
-  <td width=49 colspan=2 style='width:36.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>NOrd</span></p>
-  </td>
-  <td width=352 colspan=2 style='width:263.75pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Sensor measurement value.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=45 colspan=2 style='width:34.0pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>out</span></p>
-  </td>
-  <td width=86 colspan=2 style='width:64.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>num</span></p>
-  </td>
-  <td width=131 colspan=4 style='width:98.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=49 colspan=2 style='width:36.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=352 colspan=2 style='width:263.75pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Number of value.</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr style='page-break-inside:avoid;height:16.15pt'>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=1><p class='MsoNormal'>&nbsp;</td>
-  <td width=45 colspan=2 style='width:34.0pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span
-  style='font-family:"Times New Roman",serif'>out</span></p>
-  </td>
-  <td width=86 colspan=2 style='width:64.45pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>time</span></p>
-  </td>
-  <td width=131 colspan=4 style='width:98.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Integer</span></p>
-  </td>
-  <td width=49 colspan=2 style='width:36.8pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>M</span></p>
-  </td>
-  <td width=352 colspan=2 style='width:263.75pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0mm 5.4pt 0mm 5.4pt;height:16.15pt'>
-  <p class=FeatureValue><span style='font-family:"Times New Roman",serif'>Time value defined by HALComponent</span></p>
-  </td>
-  <td style='border:none;padding:0mm 0mm 0mm 0mm' width=8><p class='MsoNormal'>&nbsp;</td>
- </tr>
- <tr height=0>
-  <td width=1 style='border:none'></td>
-  <td width=9 style='border:none'></td>
-  <td width=37 style='border:none'></td>
-  <td width=63 style='border:none'></td>
-  <td width=23 style='border:none'></td>
-  <td width=19 style='border:none'></td>
-  <td width=61 style='border:none'></td>
-  <td width=35 style='border:none'></td>
-  <td width=17 style='border:none'></td>
-  <td width=39 style='border:none'></td>
-  <td width=10 style='border:none'></td>
-  <td width=351 style='border:none'></td>
-  <td width=1 style='border:none'></td>
-  <td width=8 style='border:none'></td>
- </tr>
+<table>
+	<tr>
+		<td colspan="12">Derived From: HALComponent</td>
+	</tr>
+	<tr>
+		<td colspan="12">Attributes</td>
+	</tr>
+	<tr>
+		<td colspan="4">value</td>
+		<td colspan="3">Real</td>
+		<td>M</td>
+		<td colspan="2">NOrd</td>
+		<td colspan="2">Measurement value of sensor device</td>
+	</tr>
+	<tr>
+		<td colspan="12">Operations</td>
+	</tr>
+	<tr>
+		<td colspan="6" rowspan="3">GetValue</td>
+		<td colspan="6">Acquire sensor measurement value.</td>
+	</tr>
+	<tr>
+		<td colspan="6">Used to acquire the sensor measurement value from the application side.</td>
+	</tr>
+	<tr>
+		<td colspan="6">The sensor measurement value is output in the International System of Units.</td>
+	</tr>
+	<tr>
+		<td colspan="2">out</td>
+		<td colspan="2">value</td>
+		<td colspan="4">Real</td>
+		<td colspan="2">NOrd</td>
+		<td colspan="2">Sensor measurement value.</td>
+	</tr>
+	<tr>
+		<td colspan="2">out</td>
+		<td colspan="2">num</td>
+		<td colspan="4">Integer</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Number of value.</td>
+	</tr>
+	<tr>
+		<td colspan="6" rowspan="3">GetTimedValue</td>
+		<td colspan="6">Acquire sensor measurement value and measurement time.</td>
+	</tr>
+	<tr>
+		<td colspan="6">Used to acquire the sensor measurement value from the application side. Time returns the time value defined by HALComponent.</td>
+	</tr>
+	<tr>
+		<td colspan="6">The sensor measurement value is in the International System of Units.</td>
+	</tr>
+	<tr>
+		<td colspan="2">out</td>
+		<td colspan="2">value</td>
+		<td colspan="4">Real</td>
+		<td colspan="2">NOrd</td>
+		<td colspan="2">Sensor measurement value.</td>
+	</tr>
+	<tr>
+		<td colspan="2">out</td>
+		<td colspan="2">num</td>
+		<td colspan="4">Integer</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Number of value.</td>
+	</tr>
+	<tr>
+		<td colspan="2">out</td>
+		<td colspan="2">time</td>
+		<td colspan="4">Integer</td>
+		<td colspan="2">M</td>
+		<td colspan="2">Time value defined by HALComponent</td>
+	</tr>
 </table>
-
-</div>
 
 The sample sequence diagram for synchronizing time information among multiple sensors using the API defined above is shown below.
 
