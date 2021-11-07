@@ -346,7 +346,7 @@ HALId is an element representing the Id identifying a HALComponent.
     <td>Identifier for identifying the type of device.</td>
   </tr>
   <tr>
-    <td>OMG performs management.</td>
+    <td>JASA performs management.</td>
   </tr>
   <tr>
     <td colspan="2" rowspan="2">vendorId</td>
@@ -356,7 +356,7 @@ HALId is an element representing the Id identifying a HALComponent.
     <td>Identifier for identifying the device vendor.</td>
   </tr>
   <tr>
-    <td>OMG performs management.</td>
+    <td>JASA performs management.</td>
   </tr>
   <tr>
     <td colspan="2" rowspan="2">productId</td>
