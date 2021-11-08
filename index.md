@@ -905,3 +905,544 @@ enum ReturnCode HalSensorGetTimedValueList(HALCOMPONENT_T *halComponent, int32_t
 
 #endif /* HAL4RT_H */
 ```
+
+## Appendix A. HAL ID
+
+Table A.1 : Device Kind ID
+
+<google-sheets-html-origin>
+	<table>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}">No</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Device Kind ID&quot;}">Device Kind ID</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Device name&quot;}">Device name</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Description&quot;}">Description</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Applicant&quot;}">Applicant</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Application date&quot;}">Application date</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Approval date&quot;}">Approval date</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Authorizer&quot;}">Authorizer</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Remarks&quot;}">Remarks</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000000&quot;}">0x00000000</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Test&quot;}">Test</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;For development use&quot;}">For development use</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Motor &quot;}">Motor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Motor&quot;}">Motor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000002&quot;}">0x00000002</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;GyroSensor&quot;}">GyroSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Gyroscope Sensor&quot;}">Gyroscope Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:3}">3</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000003&quot;}">0x00000003</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;TorqueSensor&quot;}">TorqueSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Torque sensor&quot;}">Torque sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:4}">4</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000004&quot;}">0x00000004</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;AccelerationSensor&quot;}">AccelerationSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Acceleration Sensor&quot;}">Acceleration Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:5}">5</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000005&quot;}">0x00000005</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;CompassSensor&quot;}">CompassSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Compass Sensor&quot;}">Compass Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:6}">6</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000006&quot;}">0x00000006</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;DistanceSensor&quot;}">DistanceSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Distance Sensor&quot;}">Distance Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:7}">7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000007&quot;}">0x00000007</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ForceSensor&quot;}">ForceSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Force Sensor&quot;}">Force Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:8}">8</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000008&quot;}">0x00000008</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;TemperatureSensor&quot;}">TemperatureSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Temperature Sensor&quot;}">Temperature Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:9}">9</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000009&quot;}">0x00000009</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;HumiditySensor&quot;}">HumiditySensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Humidity Sensor&quot;}">Humidity Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:10}">10</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000A&quot;}">0x0000000A</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;CO2Sensor&quot;}">CO2Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;CO2 Sensor&quot;}">CO2 Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44228}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/2/1</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44284}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/3/29</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL WG&quot;}">JASA OpenEL WG</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:11}">11</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000B&quot;}">0x0000000B</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ColorSensor&quot;}">ColorSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Color Sensor&quot;}">Color Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44305}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/4/19</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44305}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/4/19</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL WG&quot;}">JASA OpenEL WG</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:12}">12</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000C&quot;}">0x0000000C</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;TouchSensor&quot;}">TouchSensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Touch Sensor&quot;}">Touch Sensor</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44305}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/4/19</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44305}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/4/19</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL WG&quot;}">JASA OpenEL WG</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:13}">13</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000D&quot;}">0x0000000D</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:14}">14</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000E&quot;}">0x0000000E</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:15}">15</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000F&quot;}">0x0000000F</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0xFFFFFFFF&quot;}">0xFFFFFFFF</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Test&quot;}">Test</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;For development use&quot;}">For development use</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+	</table></google-sheets-html-origin>
+
+Table A.2 : Vendor ID
+
+<google-sheets-html-origin>
+	<table>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}">No</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Vendor ID&quot;}">Vendor ID</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Vendor Short Name&quot;}">Vendor Short Name</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Vendor Name&quot;}">Vendor Name</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Applicant&quot;}">Applicant</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Application date&quot;}">Application date</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Approval date&quot;}">Approval date</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Authorizer&quot;}">Authorizer</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Remarks&quot;}">Remarks</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000000&quot;}">0x00000000</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;TEST&quot;}">TEST</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;For development use&quot;}">For development use</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Japan Embedded Systems Technology Association&quot;}">Japan Embedded Systems Technology Association</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000002&quot;}">0x00000002</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Upwind Technology, Inc.&quot;}">Upwind Technology, Inc.</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:3}">3</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000003&quot;}">0x00000003</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;OM&quot;}">OM</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ORIENTAL MOTOR Co., Ltd.&quot;}">ORIENTAL MOTOR Co., Ltd.</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;OM&quot;}">OM</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:4}">4</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000004&quot;}">0x00000004</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;NIDEC&quot;}">NIDEC</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;NIDEC CORPORATION&quot;}">NIDEC CORPORATION</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;NIDEC&quot;}">NIDEC</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:5}">5</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000005&quot;}">0x00000005</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;RT&quot;}">RT</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;RT Corporation&quot;}">RT Corporation</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:6}">6</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000006&quot;}">0x00000006</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;AG&quot;}">AG</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ASAKUSAGIKEN&quot;}">ASAKUSAGIKEN</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:7}">7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000007&quot;}">0x00000007</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;SEN&quot;}">SEN</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Sensirion&quot;}">Sensirion</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44228}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/2/1</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44284}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/3/29</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL WG&quot;}">JASA OpenEL WG</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:8}">8</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000008&quot;}">0x00000008</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;DIA&quot;}">DIA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Diarkis&quot;}">Diarkis</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;DIA&quot;}">DIA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44228}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/2/1</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44284}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/3/29</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL WG&quot;}">JASA OpenEL WG</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:9}">9</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000009&quot;}">0x00000009</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEGO&quot;}">LEGO</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEGO&quot;}">LEGO</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44305}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/4/19</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44305}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/4/19</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL WG&quot;}">JASA OpenEL WG</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:10}">10</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000A&quot;}">0x0000000A</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;M5&quot;}">M5</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;M5Stack&quot;}">M5Stack</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44305}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/4/19</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:44305}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2021/4/19</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL WG&quot;}">JASA OpenEL WG</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:11}">11</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000B&quot;}">0x0000000B</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:12}">12</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000C&quot;}">0x0000000C</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:13}">13</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000D&quot;}">0x0000000D</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:14}">14</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000E&quot;}">0x0000000E</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:15}">15</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000F&quot;}">0x0000000F</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0xFFFFFFFF&quot;}">0xFFFFFFFF</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;TEST&quot;}">TEST</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;For development use&quot;}">For development use</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:43227}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2018/5/7</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}" data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;[$-F800]dddd&yen;&yen;,&yen;&yen; mmmm&yen;&yen; dd&yen;&yen;,&yen;&yen; yyyy&quot;,&quot;3&quot;:1}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA OpenEL International Standardization Committee&quot;}">JASA OpenEL International Standardization Committee</td>
+		</tr>
+	</table></google-sheets-html-origin>
+
+Table A.3 : Product ID
+
+<google-sheets-html-origin>
+	<table>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Vendor ID&quot;}">Vendor ID</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Vendor Short Name&quot;}">Vendor Short Name</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Vendor Name&quot;}">Vendor Name</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Product ID&quot;}">Product ID</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Product Name&quot;}">Product Name</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000000&quot;}">0x00000000</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;TEST&quot;}">TEST</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;For development use&quot;}">For development use</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;JASA&quot;}">JASA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Japan Embedded Systems Technology Association&quot;}">Japan Embedded Systems Technology Association</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000002&quot;}">0x00000002</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTI&quot;}">UTI</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Upwind Technology, Inc.&quot;}">Upwind Technology, Inc.</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UTRX-17&quot;}">UTRX-17</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000003&quot;}">0x00000003</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;OM&quot;}">OM</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ORIENTAL MOTOR Co., Ltd.&quot;}">ORIENTAL MOTOR Co., Ltd.</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000004&quot;}">0x00000004</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;NIDEC&quot;}">NIDEC</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;NIDEC CORPORATION&quot;}">NIDEC CORPORATION</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000005&quot;}">0x00000005</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;RT&quot;}">RT</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;RT Corporation&quot;}">RT Corporation</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;USB-9AXIS&quot;}">USB-9AXIS</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000006&quot;}">0x00000006</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;AG&quot;}">AG</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ASAKUSAGIKEN&quot;}">ASAKUSAGIKEN</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;AGB65-DCM&quot;}">AGB65-DCM</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000007&quot;}">0x00000007</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;SEN&quot;}">SEN</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Sensirion&quot;}">Sensirion</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;SCD30&quot;}">SCD30</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000008&quot;}">0x00000008</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;DIA&quot;}">DIA</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Diarkis&quot;}">Diarkis</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Diarkis&quot;}">Diarkis</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000009&quot;}">0x00000009</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEGO&quot;}">LEGO</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEGO&quot;}">LEGO</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;EV3&quot;}">EV3</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000A&quot;}">0x0000000A</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;M5&quot;}">M5</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;M5Stack&quot;}">M5Stack</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x00000001&quot;}">0x00000001</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;BALA2&quot;}">BALA2</td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000B&quot;}">0x0000000B</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000C&quot;}">0x0000000C</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000D&quot;}">0x0000000D</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000E&quot;}">0x0000000E</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000F&quot;}">0x0000000F</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0xFFFFFFFF&quot;}">0xFFFFFFFF</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;TEST&quot;}">TEST</td>
+			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;For development use&quot;}">For development use</td>
+			<td></td>
+		</tr>
+	</table></google-sheets-html-origin>
