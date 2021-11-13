@@ -2,7 +2,7 @@
 
 [OpenEL(Open Embedded Library)](https://openel.github.io/) is a unified API(Application Programming Interface) for actuators and sensors. The specifications and implementation have been developed by [JASA(Japan Embedded Systems Technology Association)](https://www.jasa.or.jp/data/english/) since 2011.
 
-As of November 7, 2021, version 3.2 is available.
+As of November 13, 2021, version 3.2.1 is available.
 
 ## 1. Supported Hardware
 - M5Stack [BALA2 ESP32 Self-balancing Robot Kit](https://shop.m5stack.com/products/bala2-esp32-self-balancing-robot-kit)
@@ -17,7 +17,7 @@ As of November 7, 2021, version 3.2 is available.
 
 ## 3. Install OpenEL for Arduino
 
-1. Download the .zip file(openel-arduino-3.2.0.zip) from the GitHub repository "[openel/openel-arduino](https://github.com/openel/openel-arduino)".
+1. Download the .zip file( [openel-arduino-3.2.1.zip](https://github.com/openel/openel-arduino/releases/tag/v3.2.1) ) from the GitHub repository "[openel/openel-arduino](https://github.com/openel/openel-arduino)".
 2. Open Arduino IDE.
 3. See "Importing a .zip Library" in the document, "[Installing Additional Arduino Libraries](https://www.arduino.cc/en/guide/libraries)" and install OpenEL for Arduino.
 
@@ -81,25 +81,25 @@ ex.
   Sensor *BMM = 0;
 
   HALId halid1, halid2, halid3, halid4;
-  halid1.deviceKindId = 1;
-  halid1.vendorId = 9;
-  halid1.productId = 1;
-  halid1.instanceId = 1;
+  halid1.deviceKindId = 0x1;  // Motor
+  halid1.vendorId = 0xA;      // M5Stack
+  halid1.productId = 0x1;     // BALA2
+  halid1.instanceId = 0x1;    // Left Motor
 
-  halid2.deviceKindId = 1;
-  halid2.vendorId = 9;
-  halid2.productId = 1;
-  halid2.instanceId = 2;
+  halid2.deviceKindId = 0x1;
+  halid2.vendorId = 0xA;
+  halid2.productId = 0x1;
+  halid2.instanceId = 0x2;    // Right Motor
 
-  halid3.deviceKindId = 2;
-  halid3.vendorId = 9;
-  halid3.productId = 2;
-  halid3.instanceId = 1;
+  halid3.deviceKindId = 0x2;  // Gyroscope Sensor
+  halid3.vendorId = 0xA;
+  halid3.productId = 0x1;
+  halid3.instanceId = 0x1;
 
-  halid4.deviceKindId = 2;
-  halid4.vendorId = 9;
-  halid4.productId = 3;
-  halid4.instanceId = 1;
+  halid4.deviceKindId = 0xD;  // Magnetic Sensor
+  halid4.vendorId = 0xA;
+  halid4.productId = 0x1;
+  halid4.instanceId = 0x1;
 
   motor_l = new Actuator(halid1);
   motor_r = new Actuator(halid2);

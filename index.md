@@ -1069,10 +1069,10 @@ Table A.1 : Device Kind ID
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:13}">13</td>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000D&quot;}">0x0000000D</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>MagneticSensor</td>
+			<td>Magnetic Sensor</td>
+			<td>UTI</td>
+			<td>2021/11/13</td>
 			<td></td>
 			<td></td>
 			<td></td>
