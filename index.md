@@ -1069,10 +1069,10 @@ Table A.1 : Device Kind ID
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:13}">13</td>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000D&quot;}">0x0000000D</td>
-			<td>MagneticSensor</td>
-			<td>Magnetic Sensor</td>
+			<td>CurrentSensor</td>
+			<td>Current Sensor</td>
 			<td>UTI</td>
-			<td>2021/11/13</td>
+			<td>2022/2/1</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -1251,10 +1251,10 @@ Table A.2 : Vendor ID
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:11}">11</td>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000B&quot;}">0x0000000B</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
+			<td>NVIDIA</td>
+			<td>NVIDIA</td>
+			<td>UTI</td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2022/2/1</td>
 			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
 			<td></td>
 			<td></td>
@@ -1406,10 +1406,10 @@ Table A.3 : Product ID
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000B&quot;}">0x0000000B</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>NVIDIA</td>
+			<td>NVIDIA</td>
+			<td>0x00000001</td>
+			<td>JETBOT</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000C&quot;}">0x0000000C</td>
