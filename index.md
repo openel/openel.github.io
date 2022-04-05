@@ -1073,9 +1073,9 @@ Table A.1 : Device Kind ID
 			<td>Current Sensor</td>
 			<td>UTI</td>
 			<td>2022/2/1</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2022/2/28</td>
+			<td>JASA</td>
+			<td><JASA OpenEL WG/td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:14}">14</td>
@@ -1255,9 +1255,9 @@ Table A.2 : Vendor ID
 			<td>NVIDIA</td>
 			<td>UTI</td>
 			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2022/2/1</td>
-			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
-			<td></td>
-			<td></td>
+			<td>2022/2/28</td>
+			<td>JASA</td>
+			<td>JASA OpenEL WG</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:12}">12</td>
