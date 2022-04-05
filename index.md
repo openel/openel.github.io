@@ -1075,7 +1075,7 @@ Table A.1 : Device Kind ID
 			<td>2022/2/1</td>
 			<td>2022/2/28</td>
 			<td>JASA</td>
-			<td><JASA OpenEL WG/td>
+			<td>JASA OpenEL WG</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:14}">14</td>
