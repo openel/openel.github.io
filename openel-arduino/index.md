@@ -26,6 +26,8 @@ As of November 13, 2021, version 3.2.1 is available.
 1. In Arduino IDE, navigate to File > Examples > OpenEL > BALA2
 2. Connect your M5Stack BALA2.
 3. Verify/Compile and Upload BALA2 sketch to your M5Stack BALA2.
+  - You may also need `python` (version 3) and `python-serial` module if they are not already installed to your system.
+    - For Ubuntu 20.04, run the next command to install them: `sudo apt install python-is-python3 python3-serial`
 4. You can see the Self-balancing Robot running slowly.
 
 ### 4.1 How to connect to BALA2 by using Blynk
