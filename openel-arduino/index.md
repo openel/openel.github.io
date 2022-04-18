@@ -12,14 +12,14 @@ As of November 13, 2021, version 3.2.1 is available.
 ## 2. Install Arduino IDE
 
 1. See "Install the Arduino Desktop IDE" in the document, "[Getting Started with Arduino products](https://www.arduino.cc/en/Guide)".
-2. See "Using the Library Manager" in the document, "[Installing Additional Arduino Libraries](https://www.arduino.cc/en/guide/libraries)" and Install [Blynk](https://blynk.io/) library.
+2. See "Using the Library Manager" in the document, "[Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries)" and Install [Blynk](https://blynk.io/) library.
 3. See the document, "[Arduino IDE Development](https://docs.m5stack.com/en/arduino/arduino_development)" and install USB driver, M5Stack boards and M5Stack library.
 
 ## 3. Install OpenEL for Arduino
 
 1. Download the .zip file( [openel-arduino-3.2.1.zip](https://github.com/openel/openel-arduino/releases/tag/v3.2.1) ) from the GitHub repository "[openel/openel-arduino](https://github.com/openel/openel-arduino)".
 2. Open Arduino IDE.
-3. See "Importing a .zip Library" in the document, "[Installing Additional Arduino Libraries](https://www.arduino.cc/en/guide/libraries)" and install OpenEL for Arduino.
+3. See "Importing a .zip Library" in the document, "[Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries)" and install OpenEL for Arduino.
 
 ## 4. How to use OpenEL for Arduino
 
