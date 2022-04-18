@@ -38,9 +38,9 @@ As of November 13, 2021, version 3.2.1 is available.
 47 : #define AUTH "My Blynk Auth Token" // Your Blynk Auth Token
 ```
 3. Verify/Compile and Upload BALA2 sketch to your M5Stack BALA2.
-4. See the document, "[Build your first IoT app in five minutes](https://blynk.io/en/getting-started)" and download and install [Blynk(legacy)](https://play.google.com/store/apps/details?id=cc.blynk) application to youe Android or iPhone..
+4. See the document, "[Build your first IoT app in five minutes](https://blynk.io/en/getting-started)" and download and install [Blynk(legacy)](https://play.google.com/store/apps/details?id=cc.blynk) application to your Android or iPhone.
 
-5. Set up Joystick Settinngs in your Blynk(legacy) application.
+5. Set up Joystick Settings in your Blynk(legacy) application.
 ```
 OUTPUT
 mode:MERGE
@@ -72,7 +72,7 @@ openEL_SensorM5StackGrayMPU6886.hpp
 ```
 
 5. Edit your HAL Component file.
-6. Add your header file and Hal Registration Table into openEL_registoryConfig.cpp file.
+6. Add your header file and Hal Registration Table into openEL_registryConfig.cpp file.
 7. You can use your new device from your sketch by using deviceKindId, vendorId, productId, and instanceId.
 
 ```
@@ -111,7 +111,7 @@ ex.
 
 ## 6. How to Add your HAL Component file to repository
 1. Fork openel-arduino repository.
-2. Add and Commit your HAL Compornent file to your repository.
+2. Add and Commit your HAL Component file to your repository.
 3. Create a pull request.
 
 We look forward to your pull request.
