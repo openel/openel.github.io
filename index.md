@@ -2,7 +2,7 @@
 
 OpenEL(Open Embedded Library) is a unified API(Application Programming Interface) for actuators and sensors. The specifications and implementation have been developed by [JASA(Japan Embedded Systems Technology Association)](https://www.jasa.or.jp/data/english/) since 2011.
 
-As of October 30, 2021, version 3.2 is available.
+As of May 5, 2025, version 3.2 is available.
 
 ## 1. Scope
 
@@ -1262,35 +1262,35 @@ Table A.2 : Vendor ID
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:12}">12</td>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000C&quot;}">0x0000000C</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
-			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
-			<td></td>
-			<td></td>
+			<td>BOSCH</td>
+			<td>BOSCH</td>
+			<td>UTI</td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2022/4/11</td>
+			<td>2022/4/11</td>
+			<td>JASA</td>
+			<td>JASA OpenEL WG</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:13}">13</td>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000D&quot;}">0x0000000D</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
-			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
-			<td></td>
-			<td></td>
+			<td>STM</td>
+			<td>STMicroelectoronics</td>
+			<td>UTI</td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2022/4/21</td>
+			<td>2022/4/21</td>
+			<td>JASA</td>
+			<td>JASA OpenEL WG</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:14}">14</td>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000E&quot;}">0x0000000E</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
-			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}"></td>
-			<td></td>
-			<td></td>
+			<td>SEEED</td>
+			<td>Seeed Studio, Inc.</td>
+			<td>UTI</td>
+			<td data-sheets-numberformat="{&quot;1&quot;:5,&quot;2&quot;:&quot;yyyy/m/d&quot;,&quot;3&quot;:1}">2025/5/5</td>
+			<td>2022/5/5</td>
+			<td>JASA</td>
+			<td>JASA OpenEL WG</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:15}">15</td>
@@ -1413,17 +1413,17 @@ Table A.3 : Product ID
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000C&quot;}">0x0000000C</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>STM</td>
+			<td>STMicroelectronics</td>
+			<td>0x00000001</td>
+			<td>BME280</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000D&quot;}">0x0000000D</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>SEEED</td>
+			<td>Seeed Studio, Inc.</td>
+			<td>0x00000001</td>
+			<td>Grove Rotary Angle Sensor</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000E&quot;}">0x0000000E</td>
