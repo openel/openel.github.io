@@ -1080,13 +1080,13 @@ Table A.1 : Device Kind ID
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:14}">14</td>
 			<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;0x0000000E&quot;}">0x0000000E</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>RotaryAngleSensor</td>
+			<td>Rotary Angle Sensor</td>
+			<td>UTI</td>
+			<td>2025/5/5</td>
+			<td>2025/5/5</td>
+			<td>JASA</td>
+			<td>JASA OpenEL WG</td>
 		</tr>
 		<tr>
 			<td data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:15}">15</td>
